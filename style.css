@@ -4,6 +4,7 @@
     --cor-secundaria:#B7B0EB;
     --cor-texto:#FFFFFF;
     --cor-de-fundo:#CE6BEB;
+    --font:"Dancing Script", cursive;
 }
 body {
     background-color: var(--cor-de-fundo);
