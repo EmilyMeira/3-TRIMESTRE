@@ -15,7 +15,6 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 .cabecalho {
     background-color: var(--cor-secundaria);
     text-align: center;
