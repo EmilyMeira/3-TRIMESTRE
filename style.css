@@ -5,8 +5,8 @@
     --cor-de-fundo:#CE6BEB;
 }
 body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,8 +25,8 @@ body {
   }
   
   button {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto);
     border: none;
     border-radius: 15px;
     padding: 15px;
