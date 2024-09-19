@@ -8,7 +8,7 @@
 }
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--cor-de-texto);
+    color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,19 +23,18 @@ body {
   }
   
   h1{
-    color: var(--cor-de-texto);
+    color: var(--cor-texto);
   }
   
   button {
     background-color: var(--cor-de-fundo);
-    color: var(--cor-de-texto);
+    color: var(--cor-texto);
     border: none;
     border-radius: 15px;
     padding: 15px;
-    transition: background-color 0.3s;
   }
-  
+
   button:hover{
-    background-color: var(--cor-de-texto);
+    background-color: var(--cor-texto);
     color: var(--cor-principal);
   }
