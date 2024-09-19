@@ -7,8 +7,9 @@
     --font:"Dancing Script", cursive;
 }
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cor-principal);
     color: var(--cor-texto);
+    font-family: var(--font);
     display: flex;
     justify-content: center;
     align-items: center;
