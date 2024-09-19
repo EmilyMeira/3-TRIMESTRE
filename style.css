@@ -1,41 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 :root {
     --cor-principal: #C7ABEB;
-    --cor-secundaria:#B7B0EB;
-    --cor-texto:#FFFFFF;
-    --cor-de-fundo:#CE6BEB;
-    --font:"Dancing Script", cursive;
+    --cor-secundaria: #B7B0EB;
+    --cor-texto: #FFFFFF;
+    --cor-de-fundo: #CE6BEB;
+    --font: "Dancing Script", cursive;
 }
+
 body {
     background-color: var(--cor-principal);
     color: var(--cor-texto);
     font-family: var(--font);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
-.caixa-principal{
-    background-color: var(--cor-principal);
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  h1{
-    color: var(--cor-texto);
-  }
-  
-  button {
-    background-color: var(--cor-de-fundo);
-    color: var(--cor-texto);
-    border: none;
-    border-radius: 15px;
-    padding: 15px;
-  }
-
-  button:hover{
-    background-color: var(--cor-texto);
-    color: var(--cor-principal);
-  }
