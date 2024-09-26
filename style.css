@@ -22,7 +22,7 @@ body {
     padding: 1px;
 }
 
-.cabecalho__titulo {
+h1 {
     font-size: 2rem;
     color: var(--cor-texto);
     font-weight: 700;
